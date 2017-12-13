@@ -3,6 +3,7 @@
 	padding: 0;
 }
 
+
 .material-icons.md-18{ 
 	font-size: 18px;
 	vertical-align: middle;
@@ -93,22 +94,28 @@
 		rgba(0,0,0,.45)
 		), url("slide-1.jpg");
 	background-position: center;
-	height: 350px;
+	height: 395px;
 	width: 100%;
 	position: relative;
 }
 
-.arrow-down {
+/*.arrow-down {
+	padding-left: 100px;
+	padding-right: 100PX;
   width: 0; 
   height: 0; 
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #ededed;
-}
+  border-left: 20px solid #000;
+  border-right: 20px solid #000;
+  border-top: 20px solid transparent;
+}*/
 
 .logo{
-	padding-left:717.5px;
+	padding-left:760px;
 	padding-top: 65px; 
+}
+
+.search{
+	padding-left: 500px;
 }
 
 input{
@@ -116,7 +123,7 @@ input{
 	margin-top: 50px;
 	border-radius: 0px;
 	border-style: none;
-	margin-left: 500px;
+	margin-left: 50px;
 	width: 425px;
 	height: 45px;
 	border-radius: 3px;
@@ -134,9 +141,11 @@ button{
 }
 
 .header-banner h2{
-	padding-top: 15px;
-	padding-left: 660px;
+	padding-top: 30px;
+	padding-left: 700px;
 	color:#fff;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .info h1{
@@ -154,7 +163,7 @@ button{
 
 .products-container{
 	width: 1200px;
-	margin:0 auto;
+	margin-left: 250px;
 }
 
 .prod h1{
@@ -202,7 +211,7 @@ button{
 	font-weight: lighter;
 }
 
-.search input{
+.searchs input{
 	padding-left: 12px;
 	margin-top: 25px;
 	border-radius: 0px;
@@ -226,6 +235,36 @@ button{
 
 .footer ul{
 	margin-left: 350px;
+}
+
+.box{
+	border:solid #000 solid;
+	width: 315px;
+	height: 350px;
+	padding-top: 50px;
+}
+
+.box-top{
+	border-radius: 2px;
+	height: 240px;
+	width: 100%;
+	background-image: url(product-item-sample.jpg);
+	background-size: 100%;
+}
+
+.box-top h3{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	margin-left: 10px;
+	padding-top: 200px;
+}
+.box-top .imge{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 250px;
+	border:2px #fff solid;
+	border-radius: 50%;
 }
 
 
