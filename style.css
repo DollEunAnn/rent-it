@@ -213,11 +213,20 @@ button{
 	border-radius: 3px;
 }
 
+.footer{
+	height: 500px;
+	background-color:#282327; 
+}
 
+.footer li{
+	color: #fff;
+	margin-top: 65px;
+	display: inline-block;
+}
 
-
-
-
+.footer ul{
+	margin-left: 350px;
+}
 
 
 
