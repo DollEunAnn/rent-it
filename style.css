@@ -87,11 +87,23 @@
 }
 
 .header-banner{
-	background-image: url("slide-1.jpg");
+	background:
+	linear-gradient(
+		rgba(0,0,0,.45),
+		rgba(0,0,0,.45)
+		), url("slide-1.jpg");
 	background-position: center;
 	height: 350px;
 	width: 100%;
 	position: relative;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #ededed;
 }
 
 .logo{
@@ -100,6 +112,7 @@
 }
 
 input{
+	padding-left: 12px;
 	margin-top: 50px;
 	border-radius: 0px;
 	border-style: none;
@@ -120,24 +133,85 @@ button{
 	color: #fff;
 }
 
-
 .header-banner h2{
 	padding-top: 15px;
 	padding-left: 660px;
 	color:#fff;
 }
 
+.info h1{
+	padding-top: 50px;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 25px;
+}
 
+.info p{
+	color: #787878;
+	text-align: center;
 
+}
 
+.products-container{
+	width: 1200px;
+	margin:0 auto;
+}
 
+.prod h1{
+	font-size: 18px;
+}
 
+.spacer{
+	padding-top: 100px;
+}
 
+.column-one,
+.column-two {
+    float: left;
+    width: 50%;
+    height: 350px;
+}
 
+.column-one{
+	background:
+	linear-gradient(
+		rgba(255,127,0,.7),
+		rgba(255,127,0,.7)
+		), url("slide-3.jpg");
+	background-size: 100%;
+}
 
+.column-two{
+	background-color: #959595;
+}
 
+.column-two h2,p{
+	font-size: 15px;
+	color:#fff;
+}
 
+.column-two h2{
+	margin-top: 85px;
+	margin-left: 55px;
+}
 
+.column-two p{
+	margin-top: 25px;
+	margin-left: 55px;
+	line-height: 20px;
+	font-weight: lighter;
+}
+
+.search input{
+	padding-left: 12px;
+	margin-top: 25px;
+	border-radius: 0px;
+	border-style: none;
+	margin-left: 50px;
+	width: 425px;
+	height: 45px;
+	border-radius: 3px;
+}
 
 
 
