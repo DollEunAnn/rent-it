@@ -44,7 +44,7 @@
 
 .middle-header ul{
 	padding-left: 237px;
-	padding-top: 50px;
+	padding-top: 45px;
 }
 
 .middle-header ul li:first-child{
@@ -87,9 +87,47 @@
 }
 
 .header-banner{
-	background-image:url(slide-1.jpg);
-	height: 700px;
+	background-image: url("slide-1.jpg");
+	background-position: center;
+	height: 350px;
+	width: 100%;
+	position: relative;
 }
+
+.logo{
+	padding-left:717.5px;
+	padding-top: 65px; 
+}
+
+input{
+	margin-top: 50px;
+	border-radius: 0px;
+	border-style: none;
+	margin-left: 500px;
+	width: 425px;
+	height: 45px;
+	border-radius: 3px;
+}
+
+button{
+	display: inline-block;
+	margin-left: -2px;
+	border-radius: 2px;
+	width: 90px;
+	height: 45px;
+	border-style: none;
+	background-color: #a93434;
+	color: #fff;
+}
+
+
+.header-banner h2{
+	padding-top: 15px;
+	padding-left: 660px;
+	color:#fff;
+}
+
+
 
 
 
