@@ -161,18 +161,115 @@ button{
 
 }
 
+/*WIDGETS' CONTAINER*/
+
 .products-container{
 	width: 1200px;
 	margin-left: 250px;
+	display: inline-block;
 }
 
+/*WIDGETS*/
 .prod h1{
 	font-size: 18px;
+	display: inline-block;
 }
 
 .spacer{
 	padding-top: 100px;
 }
+
+.box{
+	width: 315px;
+	height: 350px;
+	margin-top: 50px;
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: top;
+}
+		/*TOP BOX*/
+.box-top{
+	border-radius: 2px;
+	height: 240px;
+	width: 100%;
+	background-image: url(product-item-sample.jpg);
+	background-size: 100%;
+}
+
+.box-top h1{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	margin-left: 10px;
+	padding-top: 200px;
+}
+.box-top .imge{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 250px;
+	border:2px #fff solid;
+	border-radius: 50%;
+}
+		/*BOTTOM BOX*/
+
+.box-bottom h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #787878;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.box-bottom h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #bdbdbd;
+	font-size: 13px;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+
+.box-bottom .icons ul{
+	float: right;
+	margin-right: 15px;
+}
+
+.box-bottom .icons li{
+	border:2px solid;
+	border-radius: 50%;
+	padding: 2px;
+	display: inline-block;
+	color: #bdbdbd;
+	text-align: center;
+}
+
+.box-filled{
+	border:solid #000 .5px;
+	background-color: #bc2337;
+	width: 315px;
+	height: 350px;
+	margin-top: 50px;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.box-filled .word{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/*FOOTERS*/
 
 .column-one,
 .column-two {
@@ -237,35 +334,7 @@ button{
 	margin-left: 350px;
 }
 
-.box{
-	border:solid #000 solid;
-	width: 315px;
-	height: 350px;
-	padding-top: 50px;
-}
 
-.box-top{
-	border-radius: 2px;
-	height: 240px;
-	width: 100%;
-	background-image: url(product-item-sample.jpg);
-	background-size: 100%;
-}
-
-.box-top h3{
-	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
-	color: #fff;
-	margin-left: 10px;
-	padding-top: 200px;
-}
-.box-top .imge{
-	position: absolute;
-	margin-top: 20px;
-	margin-left: 250px;
-	border:2px #fff solid;
-	border-radius: 50%;
-}
 
 
 
