@@ -153,11 +153,13 @@ button{
 	font-size: 18px;
 	text-align: center;
 	padding-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .info p{
 	color: #787878;
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -171,8 +173,9 @@ button{
 
 /*WIDGETS*/
 .prod h1{
-	font-size: 18px;
-	display: inline-block;
+	font-size: 20px;
+	font-weight: 500px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .spacer{
@@ -186,6 +189,7 @@ button{
 	display: inline-block;
 	margin-right: 30px;
 	vertical-align: top;
+	box-shadow: 0px 5px 8px #ededed;
 }
 		/*TOP BOX*/
 .box-top{
@@ -237,8 +241,6 @@ button{
 }
 
 .box-bottom .icons li{
-	border:2px solid;
-	border-radius: 50%;
 	padding: 2px;
 	display: inline-block;
 	color: #bdbdbd;
@@ -256,17 +258,32 @@ button{
 }
 
 .box-filled .word{
+	text-align: center;
+	vertical-align: middle;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
+	margin-top: 125px;
+	
 	color: #fff;
 }
 
+.box-filled .word h4{
+	margin-top: 10px;
+	font-weight: 500;
+}
 
+.icons .material-icons{
+	color: #bdbdbd;
+	border:#bdbdbd solid 2px;
+	padding:3px;
+	font-size: 18px;
+	border-radius: 50%;
+}
 
-
-
-
-
+.word .material-icons{
+	border-radius: 50%;
+	border:2px #fff solid;
+	padding:5px;
+}
 
 
 /*FOOTERS*/
@@ -328,13 +345,34 @@ button{
 	color: #fff;
 	margin-top: 65px;
 	display: inline-block;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.footer ul{
-	margin-left: 350px;
+.footer .left{
+	margin-left: 250px;
 }
 
+.footer .right{
+	display: inline-block;
+}
 
+.site-map .hom{
+	margin-left: 2px;
+}
+
+.footer .site-map .c{
+	margin-right: 5px;
+}
+
+.site-map .hom,
+.site-map .com,
+.site-map .pro,
+.site-map .ser,
+.site-map .con{
+	font-size: 15px;
+	margin-right: 2px;
+}
 
 
 
